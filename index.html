@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Rosário | Desenvolvedor de Aplicativos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f7fa;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #343a40, #212529);
+            color: #fff;
+            padding: 4rem 1rem;
+            border-radius: 0 0 2rem 2rem;
+        }
+
+        .hero h1 {
+            font-weight: 700;
+        }
+
+        .card-app {
+            border: none;
+            border-radius: 1.2rem;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease;
+        }
+
+        .card-app:hover {
+            transform: translateY(-5px);
+        }
+
+        .badge-status {
+            font-size: 0.8rem;
+            padding: 0.4em 0.7em;
+        }
+
+        section {
+            margin-top: 4rem;
+        }
+
+        footer {
+            background-color: #212529;
+            color: #adb5bd;
+            padding: 2rem 1rem;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dev. Leonardo Rosário</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#aplicativos">Aplicativos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#informacoes">Informações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero text-center mt-5">
+        <div class="container">
+            <h1>Desenvolvedor de Aplicativos</h1>
+            <p class="mt-3 fs-5">
+                Crio aplicativos focados em simplicidade, privacidade e experiência do usuário.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- Aplicativos -->
+        <section id="aplicativos">
+            <h2 class="mb-4">📱 Aplicativos</h2>
+
+            <div class="card card-app">
+                <div class="card-body p-4">
+                    <h3 class="card-title">Dinheiro em Dia</h3>
+
+                    <span class="badge bg-success badge-status mb-3 d-inline-block">
+                        Disponível na Google Play
+                    </span>
+
+                    <p class="card-text mt-3">
+                        Seja o dono das suas finanças com o Dinheiro em Dia! Nosso aplicativo de gerenciamento financeiro pessoal ajuda você a controlar suas despesas, 
+                        receitas e metas de forma fácil e intuitiva. Com gráficos, você terá uma visão clara da sua situação financeira. 
+                        E o melhor: todos os dados são armazenados localmente no seu dispositivo, garantindo a segurança e privacidade das suas informações. 
+                        Não perca mais tempo se preocupando com suas finanças. Baixe o Dinheiro em Dia e comece a gerenciar suas finanças de forma inteligente!
+                    </p>
+
+                    <div class="d-flex gap-2 mt-4 flex-wrap">
+                        <a class="btn btn-primary"
+                            href="https://play.google.com/store/apps/details?id=br.com.leonardorosario.dinheiroemdia"
+                            target="_blank">
+                            Ver na Google Play
+                        </a>
+
+                        <a class="btn btn-outline-secondary"
+                            href="https://sites.google.com/view/poli-dinheiro-em-dia"
+                            target="_blank">
+                            Política de Privacidade
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informações -->
+        <section id="informacoes">
+            <h2 class="mb-3">🛠 Informações Técnicas</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Hospedagem: GitHub Pages</li>
+                <li class="list-group-item">
+                    Site utilizado como Developer Website exigido pelo Google Play Console
+                </li>
+                <li class="list-group-item">
+                    E-mail para suporte: <strong>desenvolvedor.rosario@gmail.com</strong>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="contato" class="text-center">
+        <p class="fw-semibold">Leonardo Rosário</p>
+        <p>Desenvolvedor de Aplicativos</p>
+        <p>📧 desenvolvedor.rosario@gmail.com</p>
+        <p class="mt-3 small">&copy; 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
